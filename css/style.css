@@ -5,7 +5,8 @@ body {
   padding: 0;
   background-color: #cccccc;
   color: #333333;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: 'Jura', sans-serif;
   line-height: 2;
 }
 
@@ -22,16 +23,16 @@ header {
 }
 
 a {
-  color: #3583aa;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: #788d98;
+  color: #771e2c;
 }
 
 a:hover {
-  text-decoration: underline;
+  
 }
 
 img {
@@ -91,19 +92,32 @@ h1 {
 
 h2 {
   font-family: 'Jura', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
+  border-bottom: 1px solid #771e2c;
 }
 
+h3 {
+  font-family: 'Jura', sans-serif;
+  font-size: 15px;
+  color: #771e2c;
+  
+}
 .icon-h1:before {
   content: "";
-  padding-right: 3%;
+  padding-right: 4%;
   border-left: 15px solid #771e2c; 
 }
 
 .icon-h2:before {
   content: "";
   padding-right: 3%;
-  border-left: 15px solid #771e2c; 
+  border-left: 10px solid #771e2c; 
+}
+
+.icon-p:before {
+  content: "";
+  padding-right: 2%;
+  border-left: 5px solid #771e2c; 
 }
 .btn a {
   background-color: #771e2c;
@@ -192,6 +206,13 @@ footer small {
   background-size: 100% auto;
 }
 
+#topic {
+  background-image: url(../image/bg-index.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
 #wrap {
   clear: both;
   background-color: #ffffff;
@@ -224,6 +245,10 @@ section {
   width: 32%;
 }
 
+#news .news-list li p {
+  font-size: 15px;
+  font-family: 'Jura', sans-serif;
+}
 #news .news-list li:nth-child(3n) {
   margin-right: 0;
 }
@@ -233,5 +258,22 @@ section {
   
   text-align: center;
   background-color: #771e2c;
+  
+}
+
+#topic .topic-txt {
+  width: 66%;
+  float: left;
+}
+
+#topic .topic-image {
+  float: right;
+  height: 30%;
+  width: 30%;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
   
 }
