@@ -88,6 +88,8 @@ h1 {
   line-height: 1;
   color: #ffffff;
   font-family: 'Jura', sans-serif;
+  
+  border: none;
 }
 
 h2 {
@@ -246,7 +248,7 @@ section {
 }
 
 #news .news-list li p {
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Jura', sans-serif;
 }
 #news .news-list li:nth-child(3n) {
