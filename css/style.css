@@ -98,6 +98,11 @@ h2 {
   border-bottom: 1px solid #771e2c;
 }
 
+h4 {
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  
+}
 h3 {
   font-family: 'Jura', sans-serif;
   font-size: 15px;
@@ -116,6 +121,11 @@ h3 {
   border-left: 10px solid #771e2c; 
 }
 
+.icon-h4:before {
+  content: "";
+  padding-right: 2%;
+  border-left: 8px solid #771e2c; 
+}
 .icon-p:before {
   content: "";
   padding-right: 2%;
@@ -221,6 +231,13 @@ footer small {
   margin-top: 220px;
   padding: 35px 0;
 }
+
+#subwrap {
+  clear: both;
+  background-color: #ffffff;
+  
+  
+}
 #news .news-list li img{
   height: 100%;
   width: 100%;
@@ -250,6 +267,7 @@ section {
 #news .news-list li p {
   font-size: 18px;
   font-family: 'Jura', sans-serif;
+  text-align: justify;
 }
 #news .news-list li:nth-child(3n) {
   margin-right: 0;
@@ -266,6 +284,7 @@ section {
 #topic .topic-txt {
   width: 66%;
   float: left;
+  text-align: justify;
 }
 
 #topic .topic-image {
@@ -278,4 +297,59 @@ section {
   display: block;
   clear: both;
   
+}
+
+
+#theLangLogoEvolution {
+  background-image: url(../image/bg-index.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+
+#theLangLogoEvolution .news-list li img{
+  height: 100%;
+  width: 100%;
+  
+  
+  
+}
+
+#theLangLogoEvolution .news-list li {
+  float: left;
+  list-style: none;
+  margin: 0 2% 2% 0;
+  height: 32%;
+  width: 32%;
+}
+
+#theLangLogoEvolution .news-list li p {
+  font-size: 18px;
+  font-family: 'Jura', sans-serif;
+  text-align: justify;
+}
+#theLangLogoEvolution .news-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#theLangLogoEvolution footer {
+  width: 100%;
+  
+  text-align: center;
+  background-color: #771e2c;
+  
+}
+
+#theLangLogoEvolution .topic-txt {
+  width: 66%;
+  float: left;
+  text-align: justify;
+}
+
+#theLangLogoEvolution .topic-image {
+  float: right;
+  height: 30%;
+  width: 30%;
 }
