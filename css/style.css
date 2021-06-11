@@ -353,3 +353,43 @@ section {
   height: 30%;
   width: 30%;
 }
+
+#education {
+  background-image: url(../image/bg-index.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#education .news-list li img{
+  height: 100%;
+  width: 100%;
+  
+  
+  
+}
+#education .news-list li {
+  float: left;
+  list-style: none;
+  margin: 0 2% 2% 0;
+  height: 32%;
+  width: 32%;
+}
+
+#education .news-list li p {
+  font-size: 18px;
+  font-family: 'Jura', sans-serif;
+  text-align: justify;
+}
+#education .news-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#education footer {
+  width: 100%;
+  
+  text-align: center;
+  background-color: #771e2c;
+  
+}
