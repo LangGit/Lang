@@ -1,395 +1,79 @@
 @charset "utf-8";
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #cccccc;
-  color: #333333;
-  font-size: 20px;
-  font-family: 'Jura', sans-serif;
-  line-height: 2;
-}
+body {margin: 0;padding: 0;background-color: #cccccc;color: #333333;font-size: 20px;font-family: 'Jura', sans-serif;line-height: 2;background-image: url(../image/bg-index.png);background-repeat: no-repeat;background-position: center center;background-attachment: fixed;background-size: cover;}
 
-header {
-  width: 90%;
-  height: 100px;
-  margin :0 auto;
-}
+header {width: 90%;height: 100px;margin :0 auto;}
 
-.logo img {
-  float: right;
-  height: 9%;
-  width: 9%;
-}
+.logo img {float: right;height: 9%;width: 9%;}
 
-a {
-  color: black;
-  text-decoration: none;
-}
+a {color: black;text-decoration: none;}
 
-a:visited {
-  color: #771e2c;
-}
+a:visited {color: #771e2c;}
 
-a:hover {
-  
-}
+img {vertical-align: bottom; width: 100%;height: 100%;}
 
-img {
-  vertical-align: bottom;
-}
+ul {margin: 0;padding: 0;}
 
-ul {
-  margin: 0;
-  padding: 0;
-}
+.global-nav {float: right;margin-top: 3%;margin-right: 20px;}
 
-.global-nav {
-  float: right;
-  margin-top: 3%;
-  margin-right: 20px;
-}
+.global-nav li {float: left;margin: 0 20px;list-style: none;}
 
-.global-nav li {
-  float: left;
-  margin: 0 20px;
-  font-size: 20px;
-  list-style: none;
-  font-family: 'Jura', sans-serif;
-}
+.global-nav li a {color: #ffffff;}
 
-.global-nav li a {
-  color: #ffffff;
-}
+.global-nav li a:hover {border-bottom: 2px solid #771e2c;padding-bottom: 3px;text-decoration: none;}
 
-.global-nav li a:hover {
-  border-bottom: 2px solid #771e2c;
-  padding-bottom: 3px;
-  text-decoration: none;
-}
+.content {width: 90%;margin: 0 auto;}
 
-#index wrap {
-  background-color: transparent;
-  margin-top: 0;
-  padding: 0;
-}
+p,h1,h2,h3,h4,h5,h6 {margin-top: 0;}
 
-.content {
-  width: 90%;
-  margin: 0 auto;
-}
+h1 {font-size: 100px;line-height: 1;color: #ffffff;border: none;}
 
-p,h1,h2,h3,h4,h5,h6 {
-  margin-top: 0;
-}
+h2 {font-size: 30px;border-bottom: 1px solid #771e2c;}
 
-h1 {
-  font-size: 100px;
-  line-height: 1;
-  color: #ffffff;
-  font-family: 'Jura', sans-serif;
-  
-  border: none;
-}
+h4 {font-size: 25px;}
 
-h2 {
-  font-family: 'Jura', sans-serif;
-  font-size: 30px;
-  border-bottom: 1px solid #771e2c;
-}
+h3 {font-size: 15px;color: #771e2c;}
 
-h4 {
-  font-family: 'Jura', sans-serif;
-  font-size: 25px;
-  
-}
-h3 {
-  font-family: 'Jura', sans-serif;
-  font-size: 15px;
-  color: #771e2c;
-  
-}
-.icon-h1:before {
-  content: "";
-  padding-right: 4%;
-  border-left: 15px solid #771e2c; 
-}
+.icon-h1:before {content: "";padding-right: 4%;border-left: 15px solid #771e2c;}
 
-.icon-h2:before {
-  content: "";
-  padding-right: 3%;
-  border-left: 10px solid #771e2c; 
-}
+.icon-h2:before {content: "";padding-right: 3%;border-left: 10px solid #771e2c;}
 
-.icon-h4:before {
-  content: "";
-  padding-right: 2%;
-  border-left: 8px solid #771e2c; 
-}
-.icon-p:before {
-  content: "";
-  padding-right: 2%;
-  border-left: 5px solid #771e2c; 
-}
-.btn a {
-  background-color: #771e2c;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: 'Jura', sans-serif;
-  width: 185px;
-  display: block;
-  text-align: center;
-  line-height: 50px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: 3px solid #771e2c;
-}
+.icon-h4:before {content: "";padding-right: 2%;border-left: 8px solid #771e2c;}
 
-.btn a:hover {
-  text-decoration: none;
-  background-color: #ffffff;
-  color: #771e2c;
-}
+.icon-p:before {content: "";padding-right: 2%;border-left: 5px solid #771e2c; }
 
-footer {
-  text-align: center;
-  color : #ffffff;
-  padding: 50px 0;
-  font-family: 'Jura', sans-serif;
-  
-  
-  
-  
-  background-color: #771e2c;
-  width: 100%; 
-}
+.btn a {background-color: #771e2c;color: #ffffff;width: 185px;display: block;text-align: center;line-height: 50px;margin-top: 20px;border-radius: 5px;border: 3px solid #771e2c;}
 
-footer small {
-  width: 90%;
-  margin :0 auto;
-  font-size: 20px 
-}
+.btn a:hover {text-decoration: none;background-color: #ffffff;color: #771e2c;}
 
-#index {
-  background-image: url(../image/bg-index.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
+footer {text-align: center;color : #ffffff;padding: 50px 0;background-color: #771e2c;width: 100%; }
 
-#index .content {
-  margin-top: 150px;
-}
+footer small {width: 90%;margin :0 auto; }
 
-#index p {
-  font-size: 16px;
-  color: #ffffff;
-}
+#index wrap {background-color: transparent;margin-top: 0;padding: 0;}
 
-#index h1 {
-  font-size: 100px;
-  line-height: 1;
-  color: #ffffff;
-  font-family: 'Jura', sans-serif;
-  margin-bottom: 50px;
-  border: none;
-}
+#index .content {margin-top: 150px;}
 
-#index footer {
-  width: 100%;
-  
-  text-align: center;
-  background-color: #771e2c;
-  position: absolute;
-  bottom: 0;
-}
+#index p {font-size: 16px;color: #ffffff;}
 
-.main-center {
-  width: 940px;
-  margin: 0 auto;
-}
+#index footer {position: absolute;bottom: 0;}
 
-#news {
-  background-image: url(../image/bg-index.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
+.main-center {width: 940px;margin: 0 auto;}
 
-#topic {
-  background-image: url(../image/bg-index.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-#wrap {
-  clear: both;
-  background-color: #ffffff;
-  margin-top: 220px;
-  padding: 35px 0;
-}
+#wrap {clear: both;background-color: #ffffff;margin-top: 220px;padding: 35px 0;}
 
-#subwrap {
-  clear: both;
-  background-color: #ffffff;
-  
-  
-}
-#news .news-list li img{
-  height: 100%;
-  width: 100%;
-  
-  
-  
-}
+#subwrap {clear: both;background-color: #ffffff;}
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-  
-}
+.clearfix:after {content: "";display: block;clear: both;}
 
-section {
-  margin-bottom: 35px
-}
-#news .news-list li {
-  float: left;
-  list-style: none;
-  margin: 0 2% 2% 0;
-  height: 32%;
-  width: 32%;
-}
+section {margin-bottom: 35px}
 
-#news .news-list li p {
-  font-size: 18px;
-  font-family: 'Jura', sans-serif;
-  text-align: justify;
-}
-#news .news-list li:nth-child(3n) {
-  margin-right: 0;
-}
+.list li {float: left;list-style: none;margin: 0 2% 2% 0;width: 32%;height: 32%;}
 
-#news footer {
-  width: 100%;
-  
-  text-align: center;
-  background-color: #771e2c;
-  
-}
+.list li p {font-size: 18px;text-align: justify;}
 
-#topic .topic-txt {
-  width: 66%;
-  float: left;
-  text-align: justify;
-}
+.list li:nth-child(3n) {margin-right: 0;}
 
-#topic .topic-image {
-  float: right;
-  height: 30%;
-  width: 30%;
-}
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-  
-}
+.topic-txt {float: left;width: 66%;text-align: justify;}
 
-
-#theLangLogoEvolution {
-  background-image: url(../image/bg-index.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-
-#theLangLogoEvolution .news-list li img{
-  height: 100%;
-  width: 100%;
-  
-  
-  
-}
-
-#theLangLogoEvolution .news-list li {
-  float: left;
-  list-style: none;
-  margin: 0 2% 2% 0;
-  height: 32%;
-  width: 32%;
-}
-
-#theLangLogoEvolution .news-list li p {
-  font-size: 18px;
-  font-family: 'Jura', sans-serif;
-  text-align: justify;
-}
-#theLangLogoEvolution .news-list li:nth-child(3n) {
-  margin-right: 0;
-}
-
-#theLangLogoEvolution footer {
-  width: 100%;
-  
-  text-align: center;
-  background-color: #771e2c;
-  
-}
-
-#theLangLogoEvolution .topic-txt {
-  width: 66%;
-  float: left;
-  text-align: justify;
-}
-
-#theLangLogoEvolution .topic-image {
-  float: right;
-  height: 30%;
-  width: 30%;
-}
-
-#education {
-  background-image: url(../image/bg-index.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#education .news-list li img{
-  height: 100%;
-  width: 100%;
-  
-  
-  
-}
-#education .news-list li {
-  float: left;
-  list-style: none;
-  margin: 0 2% 2% 0;
-  height: 32%;
-  width: 32%;
-}
-
-#education .news-list li p {
-  font-size: 18px;
-  font-family: 'Jura', sans-serif;
-  text-align: justify;
-}
-#education .news-list li:nth-child(3n) {
-  margin-right: 0;
-}
-
-#education footer {
-  width: 100%;
-  
-  text-align: center;
-  background-color: #771e2c;
-  
-}
+.topic-image {float: right;width: 30%;height: 30%;}
