@@ -64,6 +64,7 @@ footer small {width: 90%;margin :0 auto; }
 
 #subwrap {clear: both;background-color: #ffffff;}
 
+#subwrap img{vertical-align: bottom; width: 50%;height: 50%;margin-left: 25%}
 .clearfix:after {content: "";display: block;clear: both;}
 
 section {margin-bottom: 35px}
