@@ -10,6 +10,10 @@ a {color: black;text-decoration: none;}
 
 a:visited {color: #771e2c;}
 
+footer a {color: #ffffff;text-decoration: none;}
+
+footer a:visited {color: #ffffff;}
+
 img {vertical-align: bottom; width: 100%;height: 100%;}
 
 ul {margin: 0;padding: 0;}
@@ -46,7 +50,7 @@ h3 {font-size: 15px;color: #771e2c;}
 
 .btn a:hover {text-decoration: none;background-color: #ffffff;color: #771e2c;}
 
-footer {text-align: center;color : #ffffff;padding: 50px 0;background-color: #771e2c;width: 100%; }
+footer {text-align: center;color : #ffffff;padding-top: 50px ;background-color: #771e2c;width: 100%; }
 
 footer small {width: 90%;margin :0 auto; }
 
