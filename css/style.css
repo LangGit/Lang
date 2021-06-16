@@ -64,8 +64,9 @@ footer small {width: 90%;margin :0 auto; }
 
 .main-center {width: 940px;margin: 0 auto; padding-bottom: 0;}
 
-#wrap {clear: both;background-color: #ffffff;margin-top: 220px;padding-top: 35px ;padding-bottom: 0;}
+#wrap {clear: both;background-color: #ffffff;margin-top: 220px;padding: 35px 0 ;}
 
+#city {background-color: #ffffff; padding-bottom: 0;}
 #subwrap {clear: both;background-color: #ffffff;}
 
 #subwrap img{vertical-align: bottom; width: 50%;height: 50%;margin-left: 25%}
