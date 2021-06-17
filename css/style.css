@@ -26,7 +26,7 @@ ul {margin: 0;padding: 0;}
 
 .global-nav li a:hover {border-bottom: 2px solid #771e2c;padding-bottom: 3px;text-decoration: none;}
 
-.content {width: 90%;margin: 0 0;}
+.content {width: 90%;margin: 0 auto;}
 
 p,h1,h2,h3,h4,h5,h6 {margin-top: 0;}
 
